@@ -605,7 +605,9 @@ public class Interface extends javax.swing.JFrame {
 
     public void acao(String numero) {
         visor = campo.getText();
+
         visor += numero;
+        
         campo.setText(visor);
     }
 
